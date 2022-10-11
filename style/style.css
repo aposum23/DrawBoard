@@ -1,0 +1,26 @@
+body{
+    height: 710px;
+}
+canvas{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+.menu{
+    border-bottom: 1px solid #000;
+    height: 60px;
+}
+#Capa_1{
+    margin-left: 2em;
+}
+#Capa1{
+    margin-left: 2em;
+}
+#Capa2{
+    margin-left: 2em;
+}
+.line-size{
+    font-size: 20px;
+    height: 30px;
+}

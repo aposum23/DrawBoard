@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DrawBoard</title>
+        <link rel="stylesheet" href="./style/style.css"/>
+    </head>
+    <body>
+        <div class="menu">
+            <svg version="1.1" id="Capa1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="50px" height="50px" viewBox="0 0 340 340" style="enable-background:new 0 0 340 340;" xml:space="preserve">
+                <g>
+                    <g>
+                        <path d="M4.272,279.049c-5.696,5.696-5.697,14.932,0.002,20.628l10.067,10.069l16.619-12.327l-11.328,17.616l20.689,20.688
+                            c5.697,5.7,14.932,5.7,20.629,0.003l67.56-67.561l-56.679-56.68L4.272,279.049z"/>
+                        <path d="M330.415,9.583c-7.641-7.641-22.423-12.221-37.469-7.936c-30.412,8.665-63.258,45.337-93.331,95.925
+                            c-17.809,29.955-43.374,16.711-65.256,38.593c-6.28,6.281-17.586,17.586-28.249,28.251l10.214,10.213
+                            c3.612,3.612,3.612,9.472,0,13.086c-3.615,3.615-9.474,3.615-13.088,0l-10.214-10.213c-7.469,7.469-12.809,12.812-12.809,12.812
+                            l69.474,69.476c0,0,39.938-39.936,54.149-54.146c21.882-21.882,8.638-47.447,38.593-65.255
+                            c50.588-30.073,87.261-62.919,95.925-93.332C342.639,32.009,338.056,17.227,330.415,9.583z M311.918,46.778
+                            c-5.164,5.163-13.533,5.163-18.696,0c-5.163-5.163-5.163-13.533,0-18.696s13.533-5.163,18.696,0S317.081,41.616,311.918,46.778z"
+                            />
+                    </g>
+                </g>
+            </svg>
+            <svg version="1.1" id="Capa2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="50px" height="50px" viewBox="0 0 326.162 326.162" style="enable-background:new 0 0 326.162 326.162;"
+                xml:space="preserve">
+                <g>
+                    <path d="M45.225,104.836L9.832,69.443L69.346,9.93l35.393,35.393L45.225,104.836z M101.896,161.836l59.519-59.513l-37.858-37.858
+                        l-59.519,59.519L101.896,161.836z M223.826,164.737l-59.517,59.517l43.126,43.12l59.517-59.511L223.826,164.737z M249.333,284.67
+                        l53.446,18.199l-18.203-53.441L249.333,284.67z M218.104,159.013l-59.519,59.518L50.96,326.157L0,275.195l107.625-107.631
+                        l59.513-59.517L275.194,0.005l50.968,50.96L218.104,159.013z M229.247,56.051l29.415,29.407l7.346-7.354l-29.399-29.407
+                        L229.247,56.051z M82.202,261.916l-29.407-29.41l-7.354,7.357l29.407,29.404L82.202,261.916z M118.966,225.15l-29.407-29.405
+                        l-7.356,7.352l29.41,29.404L118.966,225.15z M155.73,188.388l-29.408-29.407l-7.356,7.354l29.41,29.41L155.73,188.388z
+                        M192.491,151.632l-29.407-29.41l-7.354,7.356l29.41,29.408L192.491,151.632z M192.491,92.815l29.41,29.407l7.356-7.354
+                        l-29.41-29.41L192.491,92.815z"/>
+                </g>
+            </svg>
+            <label id="Capa_1" class="line-size">Line size:</label>
+            <select id="Select" class="line-size" onchange="getLineWeight()">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="30">30</option>
+            </select>
+            <label id="Capa_1" class="line-size">Color:</label>
+            <select id="SelectColor" class="line-size" onchange="setColor()">
+                <option value="black">Black</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+            </select>
+        </div>
+        <canvas id="myPics" width="1000px" height="500px"></canvas>
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>
